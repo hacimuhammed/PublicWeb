@@ -1,5 +1,4 @@
-.PublicWeb{
-  about: open-source;
+.openSource{
   with: everyone;
   for: everyone;
 }
