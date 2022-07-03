@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1200px) {
+    .lg-1{
+        flex-direction:row-reverse;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    *{transition: 200ms;}
+    .md-1{
+        font-size: 0.5em;
+    }
+    .md-2{
+        font-size: 1em;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+
+      *{transition: 200ms;}
+    .lg-1{
+        flex-direction:column-reverse;
+        margin-top: 100px;
+    }
+    .sm-2{
+        width: fit-content;
+        justify-content: left;
+        align-items: flex-start;
+        left: 0;
+        top: 0;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        background: rgba(234, 80, 149, 0.48);
+        border: 2px solid rgba(255,255,255, 0.1);
+        text-align: center;
+    }
+   
+    .sm-3{width: 100%;}
+
+    .ulist-r{text-align: right;}
+    .ulist-l{text-align: left;}
+
+    .btn{
+        background: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .md-1{font-size: 0.3em;}
+    .md-2{font-size: 0.5em;}
+    .ulist-l{font-size: 0.8em;}
+    .ulist-r{font-size: 0.8em;}
+    .card-about{font-size: 0.9em;}
+    .page-1{padding: 10px;}
+    .sm-3{margin-top: -50px;}    
+}
+  @media only screen and (max-width: 310px) {
+    .md-1{font-size: 0.25em;}
+    .md-2{font-size: 0.45em; text-indent: 0px;}
+
+  }
+
+
+  @media only screen and (max-height: 850px) and (max-width:620px)  {
+
+    .btn{display: none;}
+    #msg{display: none;}
+    #body{display:block;}
+  }
